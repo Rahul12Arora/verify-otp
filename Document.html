@@ -58,6 +58,10 @@
         padding-top: 1rem;
         line-height: 2rem;
     }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
 </style></head>
 
 <body>
@@ -71,12 +75,12 @@
         </div>
 
         <div class="otp-parent">
-            <div class="otp-box">1</div>
-            <div class="otp-box">0</div>
-            <div class="otp-box">0</div>
-            <div class="otp-box">0</div>
-            <div class="otp-box">0</div>
-            <div class="otp-box">0</div>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
+            <input type="number" placeholder="0" min="0" max="9" class="otp-box"></input>
         </div>
 
         <div id="footer-box">
